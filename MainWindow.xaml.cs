@@ -1,8 +1,8 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: WpfApp1.MainWindow
 // Assembly: WpfApp1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: DA9405B3-984C-42C6-B15A-725559E75105
-// Assembly location: C:\Users\deepa.gp\Desktop\dlls\Release Obfuscated-No\WpfApp1.dll
+// MVID: AD6B8365-ABF7-48C4-BA1E-E8D1110A0088
+// Assembly location: C:\Users\deepa.gp\Desktop\VS\2\WpfApp1_v2\WpfApp1\WpfApp1\bin\Release Obfuscated-Yes\WpfApp1.dll
 
 using DataDLL;
 using System;
@@ -55,8 +55,8 @@ public partial class MainWindow : Window, IComponentConnector
     Application.LoadComponent((object) this, new Uri("/WpfApp1;component/mainwindow.xaml", UriKind.Relative));
   }
 
-  [EditorBrowsable(EditorBrowsableState.Never)]
   [GeneratedCode("PresentationBuildTasks", "9.0.4.0")]
+  [EditorBrowsable(EditorBrowsableState.Never)]
   [DebuggerNonUserCode]
   void IComponentConnector.Connect(int connectionId, object target)
   {

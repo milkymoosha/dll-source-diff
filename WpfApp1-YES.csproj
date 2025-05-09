@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <!--Project was exported from assembly: C:\Users\deepa.gp\Desktop\dlls\Release Obfuscated-No\WpfApp1.dll-->
+  <!--Project was exported from assembly: C:\Users\deepa.gp\Desktop\VS\2\WpfApp1_v2\WpfApp1\WpfApp1\bin\Release Obfuscated-Yes\WpfApp1.dll-->
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A348EDF-B07C-4D74-9C05-EF79DA079ADA}</ProjectGuid>
+    <ProjectGuid>{47C6CB1F-7A90-4CA6-A550-022DA720E95D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>WpfApp1</AssemblyName>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <ApplicationVersion>0.0.0.0</ApplicationVersion>
     <FileAlignment>512</FileAlignment>
     <RootNamespace>WpfApp1</RootNamespace>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DataDLL">
+      <HintPath>lib\DataDLL.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System.Runtime" />
@@ -39,15 +43,14 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DotfuscatorAttribute.cs" />
-    <Compile Include="DataDLL\Person.cs" />
-    <Compile Include="App.cs" />
-    <Compile Include="Controls\MyGridBase`2.cs" />
-    <Compile Include="Controls\MyGrid.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>mainwindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Controls\MyGridBase.cs" />
+    <Compile Include="Controls\1MyGridBase.cs" />
+    <Compile Include="DotfuscatorAttribute.cs" />
+    <Compile Include="App.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
